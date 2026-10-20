@@ -25,7 +25,7 @@ public class TheatreReservations {
         // Converting date to YYYY-MM-DD
         DateTimeFormatter userDate = DateTimeFormatter.ofPattern("MM/dd/yyyy"); // Creating date format pattern
         // Input -> (mm/dd/yyyy)
-        // Converts user date to yyyy/dd/mm
+        // Converts user date to yyyy/mm/dd
         LocalDate date = LocalDate.parse(showDate, userDate); // userDate -> How the user entered the date
 
         // Confirmation message
